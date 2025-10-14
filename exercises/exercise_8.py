@@ -1,10 +1,9 @@
 # weight conversion program
 
-weight = float(input("Enter your weight: "))
-unit = input("Kilograms or pounds (k or l): ")
+weight = float(input("enter your weight: "))
+unit = input("kilograms or pounds (k or l): ")
 
 is_error = False
-
 if unit.capitalize() == "K":
     new_weight = round(weight * 2.205, 2)
     new_unit = "lbs"
@@ -13,7 +12,7 @@ elif unit.capitalize() == "L":
     new_unit = "kg"
 else: 
     is_error = True
-    print("Invalid unit!")
+    print("invalid unit!")
 
 if not is_error:
-    print(f"\nYour weight {weight} {'kg' if unit.capitalize() == 'K' else 'lbs'} = {new_weight} {new_unit}")
+    print(f"\nyour weight {weight} {'kg' if unit.capitalize() == 'K' else 'lbs'} = {new_weight} {new_unit}")
