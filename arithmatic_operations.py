@@ -1,3 +1,6 @@
+# basic mathematical operations available in python
+# follows the standard PEMDAS order of operations
+
 friends = 0
 
 # operation: addition
