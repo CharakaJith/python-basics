@@ -20,7 +20,7 @@ while True:
 
 random_num = random.randint(lower, upper)
 
-time.sleep(3)
+time.sleep(2)
 print(f"random number has been generated...")
 
 tries = 0
