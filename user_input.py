@@ -8,4 +8,4 @@ print(f"\nWelcome, {name}")
 ageStr = input("How old are you: ")
 age = int(ageStr)
 
-print(F"\n{'Too young to enter!' if age <= 18 else 'Please come in!'}")
+print(f"\n{'Too young to enter!' if age <= 18 else 'Please come in!'}")

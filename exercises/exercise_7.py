@@ -18,7 +18,6 @@ else:
     error = "please select a valid operation!"
 
 if result != "":
-    print(f"\n{num1} {opt} {num2} = {result}")    
+    print(f"\n{num1} {opt} {num2} = {result}")
 else:
     print(f"\n{error}")
-    

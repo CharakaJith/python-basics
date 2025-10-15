@@ -4,5 +4,5 @@
 
 for x in range(3):
     for y in range(1, 10):
-        print(y, end=" ") # print x on same line with space between
+        print(y, end=" ")  # print x on same line with space between
     print()

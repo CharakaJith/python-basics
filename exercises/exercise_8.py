@@ -10,9 +10,11 @@ if unit.capitalize() == "K":
 elif unit.capitalize() == "L":
     new_weight = round(weight / 2.205, 2)
     new_unit = "kg"
-else: 
+else:
     is_error = True
     print("invalid unit!")
 
 if not is_error:
-    print(f"\nyour weight {weight} {'kg' if unit.capitalize() == 'K' else 'lbs'} = {new_weight} {new_unit}")
+    print(
+        f"\nyour weight {weight} {'kg' if unit.capitalize() == 'K' else 'lbs'} = {new_weight} {new_unit}"
+    )

@@ -10,10 +10,14 @@ user_role = "admin"
 result = "EVEN" if num % 2 == 0 else "ODD"
 print(result)
 
-status = "adult" if age >=18 else "child"
-print(status) 
+status = "adult" if age >= 18 else "child"
+print(status)
 
 # print value with nested ternary
 print("positive" if num > 0 else ("zero" if num == 0 else "negative"))
 
-print("full access" if user_role == "admin" else ("limited access" if user_role == "user" else "invalid role"))
+print(
+    "full access"
+    if user_role == "admin"
+    else ("limited access" if user_role == "user" else "invalid role")
+)

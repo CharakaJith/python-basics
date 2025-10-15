@@ -24,21 +24,21 @@ elif to_unit.capitalize() not in ["C", "F", "K"]:
 else:
     unit = unit.capitalize()
     to_unit = to_unit.capitalize()
-    
+
     if unit == "C":
         if to_unit == "F":
-            new_temp = (temp * 9/5) + 32
+            new_temp = (temp * 9 / 5) + 32
         elif to_unit == "K":
             new_temp = temp + 273.15
     elif unit == "F":
         if to_unit == "C":
-            new_temp = (temp - 32) * 5/9
+            new_temp = (temp - 32) * 5 / 9
         elif to_unit == "K":
-            new_temp = (temp - 32) * 5/9 + 273.15
+            new_temp = (temp - 32) * 5 / 9 + 273.15
     elif unit == "K":
         if to_unit == "C":
             new_temp = temp - 273.15
         elif to_unit == "F":
-            new_temp = (temp - 273.15) * 9/5 + 32
+            new_temp = (temp - 273.15) * 9 / 5 + 32
 
     print(f"\n{temp}°{unit} = {round(new_temp, 2)}°{to_unit}")

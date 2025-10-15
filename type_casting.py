@@ -24,9 +24,13 @@ new_age = float(age)
 new_is_student = str(is_student)
 
 # cast: string -> bool
-new_name = bool(name) # this would always be true as long as the variable 'name' has a value
+new_name = bool(
+    name
+)  # this would always be true as long as the variable 'name' has a value
 
 print(f"age: {age} ({type(age)}) -> age: {new_age} ({type(new_age)})")
 print(f"gpa: {gpa} ({type(gpa)}) -> gpa: {new_gpa} ({type(new_gpa)})")
-print(f"is_student: {is_student} ({type(is_student)}) -> is_student: {new_is_student} ({type(new_is_student)})")
+print(
+    f"is_student: {is_student} ({type(is_student)}) -> is_student: {new_is_student} ({type(new_is_student)})"
+)
 print(f"name: {name} ({type(name)}) -> name: {new_name} ({type(new_name)})")

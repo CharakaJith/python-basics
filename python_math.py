@@ -30,7 +30,7 @@ print(result)
 ## find the square root of a number
 new_result = math.sqrt(y)
 
-# round a float to upper limit 
+# round a float to upper limit
 new_result = math.ceil(x)
 
 # round a float to lower limit

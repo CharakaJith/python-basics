@@ -5,7 +5,7 @@
 # basic for loop
 for x in range(1, 10):
     print(x)
-    
+
 # count back word
 for x in reversed(range(1, 11)):
     print(x)
@@ -32,4 +32,4 @@ for x in range(1, 20):
     if x == 10:
         break
     else:
-        print(x) 
+        print(x)

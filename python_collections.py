@@ -21,7 +21,7 @@ print(fruits[::2])
 ## use for loop to iterate collection values
 for fruit in fruits:
     print(fruit, end=" ")
-    
+
 ## see list methods. this will show the methods that can be accessed by the list
 print(dir(fruits))
 
@@ -45,7 +45,7 @@ fruits.remove("kiwi")
 ## sort a list by alphabetical order
 fruits.sort()
 
-## reverse the order by placed position 
+## reverse the order by placed position
 fruits.reverse()
 
 ## remove all the elemants of the list

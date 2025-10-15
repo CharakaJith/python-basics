@@ -39,6 +39,6 @@ print(f"price 1: ${price_1: }")
 print(f"price 2: ${price_2: }")
 print(f"price 3: ${price_3: }")
 
-# separte with a , for thousand 
+# separte with a , for thousand
 print(f"price 4: ${price_4: ,.2f}")
 print(f"price 5: ${price_5: ,.2f}")

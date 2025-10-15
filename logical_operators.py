@@ -1,4 +1,4 @@
-# logical operators evaluate multiple conditions (and, or, not) 
+# logical operators evaluate multiple conditions (and, or, not)
 # or: at least one condition must be true
 # and: both conditions must be true
 # not: invert the condition
@@ -24,6 +24,3 @@ else:
     message = "it is cold and dark outside!"
 
 print(f"\n{message}")
-    
-
-
