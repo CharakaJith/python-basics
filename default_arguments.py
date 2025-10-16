@@ -1,5 +1,6 @@
 # default argument sets a default value to a function parameter
 # used when function call omits the said parameter when calling the function
+# non default arguments must be before the default arguments
 
 
 def net_price(list_price, discount=0.00, tax=0.05):
